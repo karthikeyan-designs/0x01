@@ -6,9 +6,7 @@
 trigger:
 - main
 
-pool:
-  vmImage: 'ubuntu-latest'   # ✅ built-in image with Maven + JDK preinstalled
-
+pool: roger
 steps:
 - task: Maven@3
   inputs:
