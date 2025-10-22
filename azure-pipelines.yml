@@ -6,9 +6,9 @@
 trigger:
 - main
 
-pool: roger
+pool: testagent
 steps:
-- task: Maven@3
+- task: Maven@4
   inputs:
     mavenPomFile: 'pom.xml'
     mavenOptions: '-Xmx3072m'
