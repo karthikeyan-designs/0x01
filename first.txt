@@ -1,5 +1,5 @@
 git --version
-git config --global user.email"karthi-work"
+git config --global user.email"karthikeyan-designs"
 git config --global-unset user.name"user name"
 git config --global-unset user.email"user.com"
 git config --global list
