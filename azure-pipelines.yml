@@ -6,7 +6,7 @@
 trigger:
 - main
 
-pool: exp
+pool: ece
 steps:
 - task: Maven@4
   inputs:
